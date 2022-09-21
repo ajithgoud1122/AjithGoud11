@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+  
+
+int main()
+{
+  
+    list<int> li(5, 100);
+  
+   
+    li.push_back(20);
+    li.push_back(30);
+  
+   
+    list<int>::iterator it = li.begin();
+  
+  
+  
+    advance(it, 5);
+  
+    
+    cout << *it;
+  
+    return 0;
+}
